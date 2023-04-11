@@ -1,0 +1,16 @@
+.form__submit {
+    margin-top: 48px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+    padding-top: 14px;
+    padding-bottom: 18px;
+    max-width: 358px;
+    background-color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: opacity .3s ease-in-out;
+}

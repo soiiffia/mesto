@@ -1,0 +1,10 @@
+.elements {
+    margin-top: 52px;
+    display: flex;
+}
+
+@media screen and(max-width: 320px)  {
+    .elemens {
+        margin-top: 0;
+    }
+}
