@@ -10,3 +10,12 @@
     text-align: center;
     overflow: hidden;
 }
+
+@media screen and (max-width: 320px) {
+    .profile__title {
+        max-width: 189px;
+        font-size: 27px;
+        margin-left: 30px;
+        text-align: right;
+    }
+}
