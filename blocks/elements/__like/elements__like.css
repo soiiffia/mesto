@@ -1,11 +1,14 @@
 .elements__like {
     background-image: url(../../../images/Vector\ \(Stroke\).png);
-    margin-right: 20px;
     width: 22px;
-    height: 30px;
-    display: block;
+    height: 19px;
+    align-self: center;
+    justify-self: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
     background-position: center;
     border: none;
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    margin-right: 9px;
+    transition: opacity .3s ease-in-out;
 }

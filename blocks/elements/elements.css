@@ -1,10 +1,19 @@
 .elements {
-    margin-top: 52px;
-    display: flex;
+    max-width: 880px;
+    margin: auto;
+    margin-top: 50px;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 282px);
+    gap: 20px 17px;
 }
 
-@media screen and(max-width: 320px)  {
-    .elemens {
-        margin-top: 0;
+@media screen and (max-width: 970px) {
+    .elements {
+        width: 320px;
+        margin-top: 35px;
+        grid-template: 361px / auto;
+        grid-auto-flow: row;
+        justify-content: center;
     }
 }

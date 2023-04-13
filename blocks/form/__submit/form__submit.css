@@ -1,11 +1,11 @@
 .form__submit {
+    width: 358px;
+    background-color: #000;
+    padding-top: 14px;
+    padding-bottom: 18px;
     margin-top: 48px;
     margin-left: 35px;
     margin-bottom: 35px;
-    padding-top: 14px;
-    padding-bottom: 18px;
-    max-width: 358px;
-    background-color: #000;
     font-weight: 400;
     font-size: 18px;
     border-radius: 2px;
@@ -13,4 +13,16 @@
     color: white;
     cursor: pointer;
     transition: opacity .3s ease-in-out;
+}
+
+@media screen and (max-width: 970px) {
+    .form__submit {
+    width: 238px;
+    min-height: 46px;
+    padding-bottom: 14px;
+    margin-top: 45px;
+    margin-left: 22px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    }
 }

@@ -15,3 +15,17 @@
     height: 32px;
     margin-top: 21px;
 }
+
+@media screen and (max-width: 970px) {
+    .form__input {
+        margin-top: 52px;
+        margin-left: 20px;
+        width: 238px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .form__input:last-child {
+        margin-top: 23px;
+    }
+}

@@ -7,7 +7,7 @@
     max-height: 73px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 970px) {
     .profile__info {
         grid-template-columns: 1fr 18px;
         grid-column-gap: 14px;
