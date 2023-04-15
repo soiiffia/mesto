@@ -25,5 +25,5 @@
 @import url(../blocks/popup/__closed/popup__closed.css);
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__input/form__input.css);
-@import url(../blocks/form/__input-job/form__input-job.css);
+@import url(../blocks/form/__input/_type/form__input_type_job.css);
 @import url(../blocks/form/__submit/form__submit.css);
