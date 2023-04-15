@@ -12,17 +12,20 @@
     border: none;
     color: white;
     cursor: pointer;
-    transition: opacity .3s ease-in-out;
+}
+
+.form__submit:hover {
+    opacity: 0.6;
 }
 
 @media screen and (max-width: 970px) {
     .form__submit {
-    width: 238px;
-    min-height: 46px;
-    padding-bottom: 14px;
-    margin-top: 45px;
-    margin-left: 22px;
-    margin-bottom: 25px;
-    font-size: 14px;
+        width: 238px;
+        min-height: 46px;
+        padding-bottom: 14px;
+        margin-top: 45px;
+        margin-left: 22px;
+        margin-bottom: 25px;
+        font-size: 14px;
     }
 }

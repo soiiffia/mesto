@@ -4,7 +4,6 @@
     grid-template-columns: 1fr 24px;
     grid-column-gap: 18px;
     grid-row-gap: 8px;
-    max-height: 73px;
 }
 
 @media screen and (max-width: 970px) {

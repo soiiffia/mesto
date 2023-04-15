@@ -4,14 +4,24 @@
     display: flex;
     align-self: center;
     box-sizing: border-box;
-    background-image: url(../../../images/Vector\ \(3\).png);
+    background-image: url(../../../images/Vector\ \(2\).svg);
     border: 1px solid #FFFFFF;
     background-color: black;
     height: 24px;
     width: 24px;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
     cursor: pointer;
-    transition: opacity .3s ease-in-out;
+}
+
+.profile__edit-button:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 970px) {
+    .profile__edit-button {
+        width: 18px;
+        height: 18px;
+        margin-top: 22px;
+    }
 }

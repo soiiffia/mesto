@@ -9,10 +9,11 @@
     grid-column: -3 / -1;
     white-space: nowrap;
     max-width: 300px;
-    max-height: 23px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 970px){
     .profile__subtitle {
         max-width: 282px;
         font-size: 14px;

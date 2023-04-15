@@ -16,7 +16,7 @@ const openPopup = function () {
 };
 // закрытие окна
 
-const removePopup = function () { console.log(popupElement.classList)
+const removePopup = function () {
   popupElement.classList.remove('popup_opened');
 };
 
@@ -31,5 +31,4 @@ popupEditButtonElement.addEventListener('click', openPopup);
 popupClosedButtonElement.addEventListener('click', removePopup);
 
 // отправка формы
-console.log(formElementSubmit)
 formElementSubmit.addEventListener('submit', handleFormSubmit);

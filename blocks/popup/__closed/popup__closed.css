@@ -4,12 +4,15 @@
     height: 32px;
     right: -40px;
     top: -40px;
-    background-image: url(../../../images/Close\ Icon\ \(1\).png);
+    background-image: url(../../../images/Close\ Icon.svg);
     background-color: transparent;
     border: none;
     color: white;
     cursor: pointer;
-    transition: opacity .3s ease-in-out;
+}
+
+.popup__closed:hover {
+    opacity: 0.6;
 }
 
 @media screen and (max-width: 970px) {

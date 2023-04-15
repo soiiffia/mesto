@@ -5,6 +5,6 @@
     border-radius: 10px;
     color: black;
     display: grid;
-    grid-template: 282px 79px / 230px 52px;
+    grid-template: 282px / 230px;
     position: relative;
 }
