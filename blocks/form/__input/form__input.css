@@ -1,7 +1,7 @@
-.form__input-job {
-    height: 32px;
-    margin-top: 21px;
+.form__input {
     width: 358px;
+    height: 30px;
+    margin-top: 22px;
     margin-left: 34px;
     border: none;
     border-bottom: 1px solid rgb(0, 0, 0, 0.2);
@@ -11,8 +11,15 @@
     line-height: 16.94px;
 }
 
+
 @media screen and (max-width: 970px) {
-    .form__input-job {
+    .form__input {
+        margin-top: 75px;
+        margin-left: 20px;
+        width: 238px;
+    }
+
+    .form__input:last-of-type {
         margin-top: 23px;
         width: 238px;
         margin-left: 20px;
