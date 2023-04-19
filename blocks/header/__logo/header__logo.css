@@ -1,4 +1,4 @@
-.header__logo {
+/*.header__logo {
     margin: 0;
     padding: 45px 0 41px 0;
     max-width: 142px;
@@ -11,4 +11,21 @@
         padding-bottom: 31px;
         padding-top: 0;
     }
+    }*/
+
+    .header__logo {
+        width: 142px;
+        height: 33px;
+        padding-top: 45px;
+        padding-bottom: 41px;
+    }
+    
+    @media screen and (max-width: 480px) {
+        .header__logo {
+            width: 103.74px;
+            height: 24.4px;
+            padding-top: 28px;
+            padding-left: 27px;
+            padding-bottom: 31.6px;
+        }
     }
