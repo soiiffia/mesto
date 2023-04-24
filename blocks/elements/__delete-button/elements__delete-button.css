@@ -1,0 +1,10 @@
+.elements__delete-button {
+    background-image: url(../../../images/Vector\ \(3\).svg);
+    width: 18px;
+    height: 19px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+}

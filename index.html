@@ -23,36 +23,14 @@
                     <button class="profile__add-button" type="button"></button>
                 </section>
                 <section class="elements">
-                    <div class="elements__element">
-                        <img src="./images/karachaevsk.png" alt="Карачаевск" class="elements__element-pic" />
-                        <h2 class="elements__element-title">Карачаевск</h2>
-                        <button class="elements__like" type="button"></button>
-                    </div>
-                    <div class="elements__element">
-                        <img src="./images/elbrus.png" alt="Эльбрус" class="elements__element-pic" />
-                        <h2 class="elements__element-title">Гора Эльбрус</h2>
-                        <button class="elements__like" type="button"></button>
-                    </div>
-                    <div class="elements__element">
-                        <img src="./images/dombai.png" alt="Домбай" class="elements__element-pic" />
-                        <h2 class="elements__element-title">Домбай</h2>
-                        <button class="elements__like" type="button"></button>
-                    </div>
-                    <div class="elements__element">
-                        <img src="./images/elbrus.png" alt="Эльбрус" class="elements__element-pic" />
-                        <h2 class="elements__element-title">Гора Эльбрус</h2>
-                        <button class="elements__like" type="button"></button>
-                    </div>
-                    <div class="elements__element">
-                        <img src="./images/dombai.png" alt="Домбай" class="elements__element-pic" />
-                        <h2 class="elements__element-title">Домбай</h2>
-                        <button class="elements__like" type="button"></button>
-                    </div>
-                    <div class="elements__element">
-                        <img src="./images/karachaevsk.png" alt="Карачаево-Черкессия" class="elements__element-pic" />
-                        <h2 class="elements__element-title">Карачаево-Черкессия</h2>
-                        <button class="elements__like" type="button"></button>
-                    </div>
+                    <template class="card">
+                        <div class="elements__element">
+                          <img src="#" alt="" class="elements__element-pic">
+                          <h2 class="elements__element-title">Место</h2>
+                          <button class="elements__like" type="button"></button>
+                          <button class="elements__delete-button" type="button"></button>
+                        </div>
+                      </template>
                 </section>
             </main>
             <footer class="footer">
@@ -69,6 +47,24 @@
                     </form>
                 </div>
             </div>
+            <div class="new-card popup">
+                <div class="popup__container">
+                  <button class="popup__closed" type="button"></button>
+                  <h2 class="popup__title">Новое место</h2>
+                  <form class="form" name="editProfile">
+                    <input type="text" class="form__input  form__input_mesto_name" name="name" placeholder="Название">
+                    <input type="text" class="form__input  form__input_mesto_link" name="link" placeholder="Ссылка на картинку">
+                    <button class="form__submit" type="submit">Создать</button>
+                  </form>
+                </div>
+              </div>
+              <div class="fullscreen popup">
+                <div class="popup__container-photo">
+                  <button class="popup__closed" type="button"></button>
+                  <img alt="Увеличенная картинка" class="popup__fullscreen-photo">
+                  <h3 class="popup__fullscreen-title">Место</h3>
+                </div>
+              </div>
         </div>
         <script src="./scripts/index.js"></script>
     </body>
